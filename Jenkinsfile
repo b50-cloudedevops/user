@@ -1,4 +1,3 @@
-@Library('robot-shared-library@main')
 pipeline {
     agent any
     stages {
