@@ -1,5 +1,5 @@
-@Library('robot-shared-library@main')
-pipeline {
+@Library('robot-shared-library@main') _
+pipeline{
     agent any
     stages {
         stage('Installing the node js dependencies') {
@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Lint checks') {
             steps {
-                script{
+                script {
                     sample.info("Welcome","stockexcnage.com")
                 }
                 sh "echo installing jslint"
